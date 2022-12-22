@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.container{
+    margin: 35px;
+    padding: 25px;
+}
+
+.container .card{
+    height: 210px;
+    width: 250px;
+    position:relative;
+    margin: 30px 10px;
+    /* padding: 20px 15px; */
+    background: wheat;
+    left: 70px;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 5px 202px black;
+}
+
+.button{
+    padding: 12px 20px;
+    margin: 60px 4px 0px 4px;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+
